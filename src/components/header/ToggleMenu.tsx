@@ -16,7 +16,7 @@ const ToggleMenu = () => {
                 id='toggleIcon'
             >
                 <Image
-                    src={"/assets/menu-vetorGroup.svg"}
+                    src={"./assets/menu-vetorGroup.svg"}
                     width={60}
                     height={60}
                     alt='Menu Icon'

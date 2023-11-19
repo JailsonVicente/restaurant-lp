@@ -49,7 +49,7 @@ export default function Card(props: CardProps) {
             <section className="flex justify-between w-full">
                 <span>{props.stars}</span>
                 <Image 
-                    src={"/assets/cardIcon.png"}
+                    src={"./assets/cardIcon.png"}
                     width={23}
                     height={22.31}
                     alt="Card Icon"
