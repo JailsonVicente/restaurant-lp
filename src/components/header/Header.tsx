@@ -1,3 +1,4 @@
+import Image from "next/image"
 import ToggleMenu from "./ToggleMenu"
 
 
@@ -32,7 +33,14 @@ function Logo() {
 
 function Profile(){
     return(
-        <img src="/assets/profile.png" className="hidden lg:block"></img>
+        <div>
+        <Image 
+            src={"/assets/profile.png"}
+            width={100}
+            height={100}
+            alt="profile image"
+        />
+    </div>
     )
 }
 
