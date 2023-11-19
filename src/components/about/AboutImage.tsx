@@ -9,14 +9,14 @@ export default function AboutImage() {
             
             `}>
                 <Image
-                    src="/assets/potato.png"
+                    src="./assets/potato.png"
                     width={263}
                     height={303}
                     alt="Potato"
                     className=""
                 />
                 <Image
-                    src="/assets/beef.png"
+                    src="./assets/beef.png"
                     width={260}
                     height={303}
                     alt="beef"
@@ -26,7 +26,7 @@ export default function AboutImage() {
 
             <div>
                 <Image
-                        src="/assets/bread.png"
+                        src="./assets/bread.png"
                         width={263}
                         height={302}
                         alt="bread"
