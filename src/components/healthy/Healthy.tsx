@@ -32,14 +32,14 @@ function HealthyBox() {
         <div className=" flex items-center w-[50%] justify-center">
             <div className="w-[60%] h-[403px]">
                 <Image
-                    src="./assets/image1.png"
+                    src="/assets/image1.png"
                     width={269}
                     height={403}
                     alt="dish"
                     className="relative left-[0px] "
                 />
                 <Image
-                    src="./assets/image2.png"
+                    src="/assets/image2.png"
                     width={269}
                     height={403}
                     alt="dish"
@@ -60,7 +60,7 @@ function HealthyImg() {
         `}>
 
             <Image
-                src="./assets/orangeJuice.png"
+                src="/assets/orangeJuice.png"
                 width={600}
                 height={400}
                 alt="Orange Juice"
@@ -68,7 +68,7 @@ function HealthyImg() {
             />
 
             <Image
-                src="./assets/pancake.png"
+                src="/assets/pancake.png"
                 width={600}
                 height={400}
                 alt="Pancake"

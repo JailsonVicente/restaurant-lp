@@ -10,7 +10,7 @@ export default function Dishes() {
         `}>
             <div className="">
                 <Image
-                    src="./assets/dish1Home.png"
+                    src="/assets/dish1Home.png"
                     width={300}
                     height={300}
                     alt="Dish 1"
@@ -19,7 +19,7 @@ export default function Dishes() {
             </div>
             <div className="">
             <Image
-                src="./assets/dish2Home.png"
+                src="/assets/dish2Home.png"
                 width={400}
                 height={394.52}
                 alt="Dish 2"
@@ -27,7 +27,7 @@ export default function Dishes() {
             </div>
             <div className="">
             <Image
-                src="./assets/dish3Home.png"
+                src="/assets/dish3Home.png"
                 width={300}
                 height={299.2}
                 alt="Dish 3"

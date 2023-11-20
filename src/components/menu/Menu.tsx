@@ -14,7 +14,7 @@ export default function Menu(){
                 gap-[67px] mt-8
             `}>
                 <Card 
-                    url="./assets/dish1.png"
+                    url="/assets/dish1.png"
                     widthImage={250}
                     heightImage={200}
                     alt="Dish1"
@@ -24,7 +24,7 @@ export default function Menu(){
                     stars={"5.0"}
                 />
                 <Card 
-                    url="./assets/dish2.png"
+                    url="/assets/dish2.png"
                     widthImage={250}
                     heightImage={200}
                     alt="Dish2"
@@ -34,7 +34,7 @@ export default function Menu(){
                     stars={"5.0"}
                 />
                 <Card 
-                    url="./assets/dish3.png"
+                    url="/assets/dish3.png"
                     widthImage={250}
                     heightImage={200}
                     alt="Dish3"
@@ -44,7 +44,7 @@ export default function Menu(){
                     stars={"5.0"}
                 />
                 <Card 
-                    url="./assets/dish4.png"
+                    url="/assets/dish4.png"
                     widthImage={250}
                     heightImage={200}
                     alt="Dish4"
@@ -54,7 +54,7 @@ export default function Menu(){
                     stars={"5.0"}
                 />
                 <Card 
-                    url="./assets/dish5.png"
+                    url="/assets/dish5.png"
                     widthImage={250}
                     heightImage={200}
                     alt="Dish5"

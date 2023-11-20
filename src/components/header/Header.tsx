@@ -35,10 +35,11 @@ function Profile(){
     return(
         <div>
         <Image 
-            src={"./assets/profile.png"}
+            src={"/assets/profile.png"}
             width={100}
             height={100}
             alt="profile image"
+            className="hidden lg:block"
         />
     </div>
     )

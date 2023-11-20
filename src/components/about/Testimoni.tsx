@@ -57,7 +57,7 @@ function CardTestimoni(){
         `}>
             <div className="">
                 <Image
-                        src="./assets/steve.png"
+                        src="/assets/steve.png"
                         width={115}
                         height={229}
                         alt="Steve"
@@ -66,7 +66,7 @@ function CardTestimoni(){
             </div>
             <div className="max-w-[247px]">
                 <Image
-                        src="./assets/quote.png"
+                        src="/assets/quote.png"
                         width={24}
                         height={24}
                         alt="quote"
@@ -76,7 +76,7 @@ function CardTestimoni(){
                 <p className="text-[16px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
 
                 <Image
-                        src="./assets/vectorV.png"
+                        src="/assets/vectorV.png"
                         width={22}
                         height={19.89}
                         alt="v"
