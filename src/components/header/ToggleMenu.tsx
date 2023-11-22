@@ -32,8 +32,8 @@ const ToggleMenu = () => {
                     left-0 right-0 top-0 bottom-0 fixed
                     flex flex-col 
                     items-center justify-center
-                    bg-[#2e2c20] border rounded shadow-lg 
-                    h-screen z-10 text-center bg-opacity-95 text-white
+                    bg-[#2e2c20]
+                    h-screen w-screen z-10 text-center bg-opacity-95 text-white
                 `}>
                     <ul className='text-3xl'>
                         <li className="py-2 px-4">Home</li>
