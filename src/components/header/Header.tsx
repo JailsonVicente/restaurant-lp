@@ -12,7 +12,7 @@ export default function Header() {
         `}>
             <Logo></Logo>
             <ToggleMenu></ToggleMenu>
-            <Profile></Profile>
+            <Profile/>
         </header>
     )
 }
@@ -33,15 +33,13 @@ function Logo() {
 
 function Profile(){
     return(
-        <div>
         <Image 
             src={"/assets/profile.png"}
             width={100}
             height={100}
             alt="profile image"
-            className="hidden lg:block"
+            className="hidden lg:block "
         />
-    </div>
     )
 }
 

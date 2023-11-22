@@ -13,7 +13,7 @@ export default function App() {
   return (
     <main className={`
         bg-bg-fundo-lp flex flex-col items-center 
-        justify-center overflow-hidden
+        justify-center overflow-hidden w-screen lg:w-full
     `}>
 
       <Header></Header>

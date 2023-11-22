@@ -12,13 +12,12 @@ body {
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
       
-      
 }
 
 h1 {
   font-family: 'Abril Fatface', 'cursive';
   color: #000;
-  font-size: 60px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: 106.1%;
@@ -27,7 +26,7 @@ h1 {
 h2 {
   font-family: 'Abril Fatface', 'cursive';
   color: #282828;
-  font-size: 30px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

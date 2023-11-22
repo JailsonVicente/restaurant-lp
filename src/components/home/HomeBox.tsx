@@ -1,3 +1,5 @@
+import Button from "../menu/Button";
+
 export default function HomeBox() {
     return (
         <div className={`
@@ -18,12 +20,7 @@ export default function HomeBox() {
                 `}>
                     In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document
             </h2>
-
-            <button className={`
-                    w-[230px] h-[40px] rounded-[200px] bg-[#D21200]
-            `}>
-                Order Now
-            </button>
+            <Button title="Order Now" />
         </div>
     )
 }

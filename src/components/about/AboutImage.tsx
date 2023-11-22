@@ -3,7 +3,8 @@ import Image from "next/image"
 export default function AboutImage() {
     return (
         <div className={`
-            flex 
+            flex my-[42px]
+            px-[20px]
         `}>
             <div className={`
             

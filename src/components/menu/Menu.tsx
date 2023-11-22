@@ -5,7 +5,7 @@ export default function Menu(){
     return(
         <section className={`
             flex flex-col text-black text-center
-            items-center gap-10 py-[20px] w-full
+            items-center gap-10 py-[20px] w-full max-w-[1600px]
         `}>
             <h1>Top List is Back</h1>
             <h2>All our best meals in one delicius snap</h2>

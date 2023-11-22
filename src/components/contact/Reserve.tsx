@@ -4,7 +4,7 @@ export default function Reserve() {
         text-black w-[50%] max-w-[540px] ml-[38px]
         `}>
             <h1>Reserve Your Seat</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'`&apos;`s standard</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
             <button className={`
                 flex text-[65px] gap-[120px] border-b-2 border-black
                 items-center px-[14px] 

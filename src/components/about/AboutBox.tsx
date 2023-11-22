@@ -1,9 +1,16 @@
+import ButtonAbout from "./ButtonAbout";
+
 export default function AboutBox() {
     return(
-        <div className="w-[50%] flex flex-col gap-[42px]">
+        <div className={`
+            flex flex-col gap-[42px]
+            px-[20px]
+            md:max-w-[800px]
+            lg:max-w-[600px]
+        `}>
             <div>                
-                <h2 className=" text-[#D21200] font-bold ">About</h2>
-                <h1 className="text-black text-[60px] leading-[106.1%]">Why Freshy?</h1>
+                <h2 className=" text-[#D21200] font-medium">About</h2>
+                <h1 className="text-black  leading-[106.1%]">Why Freshy?</h1>
             </div>
 
             <div className={`
@@ -24,11 +31,7 @@ export default function AboutBox() {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                     </div>
             </div>
-
-            <button className={`
-                w-[178px] h-[46px] rounded-[200px]
-                bg-[#D21200] mb-[42px]
-            `}>Learn More</button>
+            <ButtonAbout  title="Learn More"/>
 
         </div>
     )

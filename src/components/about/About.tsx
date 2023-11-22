@@ -5,7 +5,8 @@ export default function About() {
     return (
 
         <section className={`
-            w-full flex gap-[20px] px-[99px] flex-wrap
+            w-full flex justify-between flex-wrap
+            lg:px-[99px] max-w-[1600px]
         `}>
 
             <AboutBox></AboutBox>
