@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const ToggleMenu = () => {
@@ -8,14 +9,17 @@ const ToggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    const closeMenu = ()=>{
+    const closeMenu = () => {
         setIsMenuOpen(false)
     }
 
     return (
-        <div className="">
+        <div className="font-['Abril-Fatface'] ">
             <button
-                className="hover:scale-110 lg:hidden"
+                className={`
+                    hover:scale-110 lg:hidden  w-[60px] h-[60px]
+                    fixed right-4 top-8 z-50
+                `}
                 onClick={toggleMenu}
                 id='toggleIcon'
             >
@@ -33,33 +37,53 @@ const ToggleMenu = () => {
                     flex flex-col 
                     items-center justify-center
                     bg-[#2e2c20]
-                    h-screen w-screen z-10 text-center bg-opacity-95 text-white
+                    h-screen w-screen z-40 text-center bg-opacity-95 text-white
                 `}>
                     <ul className='text-3xl'>
-                        <li className="py-2 px-4">Home</li>
-                        <li className="py-2 px-4">Menu</li>
-                        <li className="py-2 px-4">About</li>
-                        <li className="py-2 px-4">Healthy</li>
-                        <li className="py-2 px-4">Contact</li>
+                        <li className="py-2 px-4 hover:shadow-md hover:shadow-slate-50 rounded-full">
+                            <Link href={"#Home"} onClick={closeMenu}>Home</Link>
+                        </li>
+                        <li className="py-2 px-4 hover:shadow-md hover:shadow-slate-50 rounded-full">
+                            <Link href={"#Menu"} onClick={closeMenu}>Menu</Link>
+                        </li>
+                        <li className="py-2 px-4 hover:shadow-md hover:shadow-slate-50 rounded-full">
+                            <Link href={"#Healthy"} onClick={closeMenu}>Healthy</Link>
+                        </li>
+                        <li className="py-2 px-4 hover:shadow-md hover:shadow-slate-50 rounded-full">
+                            <Link href={"#About"} onClick={closeMenu}>About</Link>
+                        </li>
+                        <li className="py-2 px-4 hover:shadow-md hover:shadow-slate-50 rounded-full">
+                            <Link href={"#Contact"} onClick={closeMenu}>Contact</Link>
+                        </li>
                     </ul>
-                    <button className={`
+                    {/* <button className={`
                         w-[40px] h-[40px] bg-black
                         border-[2px] border-white rounded-full
-                        m-[20px]
+                        m-[20px] 
                     `} onClick={closeMenu}>
                         <span className='text-xl leading-none'>X</span>
-                    </button>
+                    </button> */}
                 </div>
             )}  {(
                 <div className='hidden lg:block'>
                     <ul className={`
-                        flex
+                        flex text-xl
                     `}>
-                        <li className="py-2 px-4">Home</li>
-                        <li className="py-2 px-4">Menu</li>
-                        <li className="py-2 px-4">About</li>
-                        <li className="py-2 px-4">Healthy</li>
-                        <li className="py-2 px-4">Contact</li>
+                        <li className="py-2 px-4">
+                            <Link href={"#Home"} onClick={closeMenu}>Home</Link>
+                        </li>
+                        <li className="py-2 px-4">
+                            <Link href={"#Menu"} onClick={closeMenu}>Menu</Link>
+                        </li>
+                        <li className="py-2 px-4">
+                            <Link href={"#Healthy"} onClick={closeMenu}>Healthy</Link>
+                        </li>
+                        <li className="py-2 px-4">
+                            <Link href={"#About"} onClick={closeMenu}>About</Link>
+                        </li>
+                        <li className="py-2 px-4">
+                            <Link href={"#Contact"} onClick={closeMenu}>Contact</Link>
+                        </li>
                     </ul>
                 </div>
             )}

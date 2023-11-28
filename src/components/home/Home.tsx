@@ -6,7 +6,7 @@ export default function Home() {
         <section className={`
             w-full h-auto 
             flex flex-col items-center py-[60px]
-        `}>
+        `} id="Home">
             <HomeBox></HomeBox>
             <Dishes></Dishes>
         </section>

@@ -5,8 +5,8 @@ import ContactMedia from "./ContactMedia"
 export default function Contact() {
     return (
         <div className={`
-            flex  px-[99px] mb-[132px]
-        `}>
+            flex  md:px-[99px] md:mb-[132px]
+        `} id="Contact">
             <ContactBox></ContactBox>
         </div>
     )
@@ -14,7 +14,10 @@ export default function Contact() {
 
 function ContactBox() {
     return (
-        <div className="flex">
+        <div className={`
+            flex flex-col w-full
+            md:flex-row
+        `}>
             <ContactMedia></ContactMedia>
             <Reserve></Reserve>
         </div>

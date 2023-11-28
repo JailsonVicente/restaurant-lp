@@ -6,8 +6,9 @@ export default function Menu(){
         <section className={`
             flex flex-col text-black text-center
             items-center gap-10 py-[20px] w-full max-w-[1600px]
-        `}>
-            <h1>Top List is Back</h1>
+            mb-[100px]
+        `} id="Menu">
+            <h1 className="text-5xl">Top List is Back</h1>
             <h2>All our best meals in one delicius snap</h2>
             <div className={`
                 flex flex-wrap items-center justify-center

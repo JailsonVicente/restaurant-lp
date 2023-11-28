@@ -35,16 +35,16 @@ h2 {
 h3 {
   font-family: 'Merriweather Sans', sans-serif;
   color: #282828;
-  font-size: 18px;
+  font-size: 1.875rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
 }
 
 p {
   font-family: 'Merriweather Sans', sans-serif;
-  color: #282828;
-  font-size: 25px;
+  color: black;
+  font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

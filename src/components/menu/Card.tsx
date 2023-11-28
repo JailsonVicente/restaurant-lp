@@ -29,7 +29,7 @@ export default function Card(props: CardProps) {
                 <h2 className={`
                     absolute right-[0px] top-[89px]
                     text-[30px] leading-[40px]
-                    font-semibold text-white
+                    text-white
                 `}>
                     ${props.price}
                 </h2>

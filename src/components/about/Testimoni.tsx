@@ -1,4 +1,5 @@
 import Image from "next/image"
+import CardTestimoni from "./CardTestimoni"
 
 
 export default function Testimoni(){
@@ -32,9 +33,9 @@ function Banner() {
             my-[50px]
         `}>
             <div className="flex gap-[30px]">
-                <CardTestimoni></CardTestimoni>
-                <CardTestimoni></CardTestimoni>
-                <CardTestimoni></CardTestimoni>
+                <CardTestimoni ImageUrl="/assets/steve.png" Name="Steve Smith, Director Of Venus"/>
+                <CardTestimoni ImageUrl="/assets/monica.png" Name="Monica Jen, Manager Of Venus"/>
+                <CardTestimoni ImageUrl="/assets/ezekiel.png" Name="Ezekiel Wade, Developer Of Venus"/>
             </div>
 
             <div className="">
@@ -49,43 +50,3 @@ function Banner() {
     )
 }
 
-function CardTestimoni(){
-    return(
-        <div className={`
-            w-[394px] h-[286px] flex gap-[13px]
-            bg-[#CCC1AA]  drop-shadow-xl items-center text-black
-        `}>
-            <div className="">
-                <Image
-                        src="/assets/steve.png"
-                        width={115}
-                        height={229}
-                        alt="Steve"
-                        className="ml-[16px]"
-                />
-            </div>
-            <div className="max-w-[247px]">
-                <Image
-                        src="/assets/quote.png"
-                        width={24}
-                        height={24}
-                        alt="quote"
-                        className="mb-[22px]"
-                />
-
-                <p className="text-[16px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-
-                <Image
-                        src="/assets/vectorV.png"
-                        width={22}
-                        height={19.89}
-                        alt="v"
-                        className="my-[22px]"
-                />
-
-                <div className="bg-black bg-opacity-[20%] h-[2px] mb-[7px]"></div>
-                <p className="text-[15px]">Steve Smith, Director Of Venus</p>
-            </div>
-        </div>
-    )
-}

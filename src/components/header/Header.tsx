@@ -6,9 +6,9 @@ export default function Header() {
     return (
         <header className={`
             h-[140px] w-full bg-white
-            flex items-center justify-between
+            flex items-center justify-between 
             p-[24px] md:p-[48px] lg:p-[98px]
-
+            
         `}>
             <Logo></Logo>
             <ToggleMenu></ToggleMenu>
