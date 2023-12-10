@@ -4,7 +4,6 @@ import Image from "next/image";
 export default function Background(){
     return(
         <div>
-            <div className="w-[50px] h-[50px]">
                 <Image 
                     height={200}
                     width={200}
@@ -16,8 +15,7 @@ export default function Background(){
                         md:w-[200px] md:h-[200px] md:left-[-90px]
                     `}
                 />
-            </div>
-            <div className="w-auto h-auto">
+            
                 <Image 
                     height={408}
                     width={208}
@@ -28,7 +26,7 @@ export default function Background(){
                         md:top-[395px] md:left-0
                     `}
                 />
-            </div>
+
         </div>
     )
 }
