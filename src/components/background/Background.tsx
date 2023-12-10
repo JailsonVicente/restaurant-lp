@@ -19,8 +19,8 @@ export default function Background(){
             </div>
             <div>
                 <Image 
-                    height={204}
-                    width={204}
+                    height={408}
+                    width={208}
                     alt="ellipse"
                     src={"/assets/background/ellipse7.png"}
                     className={`
