@@ -17,7 +17,7 @@ export default function Background(){
                     `}
                 />
             </div>
-            <div>
+            <div className="w-auto h-auto">
                 <Image 
                     height={408}
                     width={208}
