@@ -20,7 +20,7 @@ export default function Reserve() {
                     Book Now
                 <div>
                     <Image 
-                            src={"/assets/arrow.png"}
+                            src={"/assets/Arrow.png"}
                             width={81}
                             height={38}
                             alt="Arrow"
