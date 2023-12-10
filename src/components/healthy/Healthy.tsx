@@ -62,7 +62,7 @@ function HealthyBox() {
                         />
                     </div>
                     <div>
-                        <button className="rounded-full bg-white w-[126px] h-[126px] text-black">ReadMore</button>
+                        <button className="rounded-full bg-white w-[126px] h-[126px] text-black active:-translate-y-1">ReadMore</button>
                     </div>
                 </div>
             </div>

@@ -19,6 +19,7 @@ const ToggleMenu = () => {
                 className={`
                     hover:scale-110 lg:hidden  w-[60px] h-[60px]
                     fixed right-4 top-8 z-50
+                    active:-translate-y-1
                 `}
                 onClick={toggleMenu}
                 id='toggleIcon'
@@ -56,13 +57,6 @@ const ToggleMenu = () => {
                             <Link href={"#Contact"} onClick={closeMenu}>Contact</Link>
                         </li>
                     </ul>
-                    {/* <button className={`
-                        w-[40px] h-[40px] bg-black
-                        border-[2px] border-white rounded-full
-                        m-[20px] 
-                    `} onClick={closeMenu}>
-                        <span className='text-xl leading-none'>X</span>
-                    </button> */}
                 </div>
             )}  {(
                 <div className='hidden lg:block'>
