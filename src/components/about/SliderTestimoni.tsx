@@ -40,7 +40,7 @@ export default function SliderTestimoni() {
     return (
         <div className={`
             flex flex-col items-center
-            w-[90vw] h-auto gap-4
+            w-[90vw] lg:max-w-[1500px] h-auto gap-4
         `}>
             <div className="">
                 {slides[currentIndex].card}
@@ -53,7 +53,7 @@ export default function SliderTestimoni() {
                     </div>
                 ))}
             </div>
-            <div className="flex justify-between w-full">
+            <div className="flex justify-around w-full">
                 <button onClick={prevSlide} className={`
                     w-32 h-10
                     rounded-full bg-[#D21200]

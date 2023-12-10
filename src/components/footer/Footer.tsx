@@ -2,57 +2,61 @@ export default function Footer() {
     return (
         <footer className={`
             
-            bg-[#CCC1AA] w-full 
+            bg-[#CCC1AA] w-full flex justify-center items-center py-[46px]
         `}>
             <ul className={`
-                flex justify-center
-                flex-wrap m-[46px] 
+                flex flex-wrap  justify-center
+                max-w-[90vw] text-xl
             `}>
-                <li className="min-w-[270px] ">
+                <li className="w-full lg:w-1/4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="8" viewBox="0 0 16 8" fill="none">
                         <path d="M8 8L0 0H16L8 8Z" fill="black" />
                     </svg>
-                    <h2 className="border-b-[1px] border-black py-[16px] mb-[48px]">Contact</h2>
-                    <span>
-                        <p>Info@freshy.com</p>
-                        <p>Contact@freshy.com</p>
-                    </span>
+                    <h2 className=" md:border-b-[1px] border-black py-[16px] ">Contact</h2>
+                    <div className="p-2 border-b-[1px] border-black md:border-none mb-2">
+                        <div>Info@freshy.com</div>
+                        <div>Contact@freshy.com</div>
+                    </div>
                 </li>
-                <li className="max-w-[270px]">
+                <li className="w-full lg:w-1/4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="8" viewBox="0 0 16 8" fill="none">
                         <path d="M8 8L0 0H16L8 8Z" fill="black" />
                     </svg>
-                    <h2 className="border-b-[1px] border-black py-[16px] mb-[48px]">Drop By</h2>
-                    <span>
-                        <p>St. Downtown,
-                            Ottawa, Canada</p>
-                        <p>001 213 542 689 256</p>
-                    </span>
+                    <h2 className="md:border-b-[1px] border-black py-[16px]">Drop By</h2>
+                    <div className="p-2 border-b-[1px] border-black md:border-none mb-2">
+                        <div>St. Downtown,
+                            Ottawa, Canada</div>
+                        <div>001 213 542 689 256</div>
+                    </div>
                 </li>
-                <li className="max-w-[270px]">
+                <li className="w-full lg:w-1/4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="8" viewBox="0 0 16 8" fill="none">
                         <path d="M8 8L0 0H16L8 8Z" fill="black" />
                     </svg>
-                    <h2 className="border-b-[1px] border-black py-[16px] mb-[48px]">Follow Us</h2>
-                    <span>
-                        <p>Instagram
-                            Facebook
-                            Twitter</p>
+                    <h2 className="md:border-b-[1px] border-black py-[16px]">Follow Us</h2>
+                    <div className="p-2 border-b-[1px] border-black md:border-none mb-2">
+                        <div className="flex flex-col">
+                            <div>Instagram</div>
+                            <div>Facebook</div>
+                            <div>Twitter</div>                            
+                        </div>
 
-                    </span>
+                    </div>
                 </li>
-                <li className="max-w-[270px]">
+                <li className="w-full lg:w-1/4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="8" viewBox="0 0 16 8" fill="none">
                         <path d="M8 8L0 0H16L8 8Z" fill="black" />
                     </svg>
-                    <h2 className="border-b-[1px] border-black py-[16px] mb-[48px]">Legal</h2>
-                    <span>
-                        <p>Website Design UI by Matay Creative
-                            ©2022. All Rights Reserved</p>
-                    </span>
-                    <span>
-                        <p className="font-bold">Coded by Jailson Vicente</p>
-                    </span>
+                    <h2 className="md:border-b-[1px] border-black py-[16px]">Legal</h2>
+                    <div className="p-2 border-b-[1px] border-black md:border-none mb-2">
+                        <div>
+                            <div>Website Design UI by Matay Creative
+                                ©2022. All Rights Reserved</div>
+                        </div>
+                        <div>
+                            <div className="font-bold">Coded by Jailson Vicente</div>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </footer>
