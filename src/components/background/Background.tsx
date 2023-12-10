@@ -22,7 +22,7 @@ export default function Background(){
                     alt="ellipse"
                     src={"/assets/background/ellipse7.png"}
                     className={`
-                        absolute left-[-50px] top-[300px] w-[200px] h-auto
+                        absolute left-[-50px] top-[300px]
                         md:top-[395px] md:left-0
                     `}
                 />
