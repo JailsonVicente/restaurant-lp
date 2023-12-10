@@ -11,7 +11,7 @@ export default function CardTestimoni(props: CardTestimoniProps){
     return(
         <div className={`
         w-[90vw] h-auto  flex flex-col gap-[13px] py-4
-        md:w-[394px md:h-[286px] md:flex-row
+        md:w-[394px] md:h-[286px] md:flex-row
         lg:w-[394px] lg:h-[286px] lg:flex-row
         bg-[#CCC1AA]  drop-shadow-xl items-center text-black
     `}>

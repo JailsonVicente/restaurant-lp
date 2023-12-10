@@ -5,8 +5,8 @@ export default function AboutBox() {
         <div className={`
             flex flex-col gap-[42px]
             px-[20px]
-            md:max-w-[800px]
-            lg:max-w-[600px]
+            md:max-w-[600px]
+            lg:max-w-[550px]
         `}>
             <div>                
                 <h2 className=" text-[#D21200] font-medium">About</h2>

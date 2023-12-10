@@ -7,16 +7,18 @@ import About from '@/components/about/About'
 import Testimoni from '@/components/about/Testimoni'
 import Contact from '@/components/contact/Contact'
 import Footer from '@/components/footer/Footer'
+import Background from '@/components/background/Background'
 
 
 export default function App() {
   return (
     <main className={`
         bg-bg-fundo-lp flex flex-col items-center 
-        justify-center overflow-hidden w-screen lg:w-full
+        justify-center overflow-hidden w-screen lg:w-full relative
     `}>
 
       <Header></Header>
+      <Background />
       <Home></Home>
       <Menu></Menu>
       <Healthy></Healthy>

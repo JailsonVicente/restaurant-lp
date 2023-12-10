@@ -18,12 +18,14 @@ export default function Reserve() {
                 active:-translate-y-1
             `}>
                     Book Now
+                <div>
                     <Image 
-                        src={"/assets/arrow.png"}
-                        width={81}
-                        height={38}
-                        alt="Arrow"
-                    />
+                            src={"/assets/arrow.png"}
+                            width={81}
+                            height={38}
+                            alt="Arrow"
+                        />
+                </div>
                 </button>
             </div>
         </div>
