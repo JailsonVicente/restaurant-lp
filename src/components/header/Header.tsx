@@ -21,7 +21,7 @@ function Logo() {
     return(
         <div className={`
         
-            text-black text-5xl font-['Henny_Pro'] font-medium
+            text-black text-5xl font-['Abril_Fatface'] font-medium
             
 
         `}>Freshy</div>

@@ -5,7 +5,7 @@ export default function Healthy() {
     return (
         <section className={`
             flex flex-col
-            item-center item-center
+            item-center item-center z-20
         `} id="Healthy">
 
             <HealthyBox></HealthyBox>
@@ -77,28 +77,27 @@ function HealthyBox() {
 function HealthyImg() {
     return (
         <div className={`
+            relative h-[500px] md:h-[744px]
             w-screen flex flex-col mt-[100px] mb-[150px] gap-[20px]
-            lg:w-full 
+            lg:w-full
         `}>
-
-            <div className="w-full flex flex-row-reverse">
-                <div className="w-[70%] flex flex-row-reverse">
+                <div className="">
                     <Image
                         src="/assets/orangeJuice.png"
-                        width={600}
-                        height={400}
+                        width={580}
+                        height={380}
                         alt="Orange Juice"
-                        className=""
+                        className="w-[80vw] md:w-[580px] z-20"
                     />
                 </div>
-            </div>
-            <div className="w-[70%]">
+
+            <div className="absolute right-0 bottom-0">
                 <Image
                     src="/assets/pancake.png"
-                    width={600}
-                    height={400}
+                    width={580}
+                    height={380}
                     alt="Pancake"
-                    className=""
+                    className="w-[80vw] md:w-[580px]"
                 />
             </div>
 

@@ -6,7 +6,7 @@ export default function Menu(){
         <section className={`
             flex flex-col text-black text-center
             items-center gap-10 py-[20px] w-full max-w-[1600px]
-            mb-[100px]
+            mb-[100px] z-20
         `} id="Menu">
             <h1 className="text-5xl">Top List is Back</h1>
             <h2>All our best meals in one delicius snap</h2>
